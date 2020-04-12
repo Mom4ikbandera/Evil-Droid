@@ -818,7 +818,8 @@ function main()
                 echo ""
                 zenity --title "☢ EVIL-DROID ☢" --info --text "BACKDOORED APK : $path/evilapk/$apk_name.apk " --width 400 > /dev/null 2>&1
                 atkv 
-                echo
+                echo sh evil-droid
+
                 ;;
             4)  echo -e $lightgreen "[✔] BYPASS AV APK"
                 echo -e $green
